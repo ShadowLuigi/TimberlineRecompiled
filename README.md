@@ -5,6 +5,8 @@ Disclaimer that this requires Rexglue if you want to codegen and compile, there 
 
 Game assets go in the "openseason" folder.
 
+Also worth nothing this is currently only for Windows, I don't have a mac or linux setup to support those (if I had any linux devices I would've had a Steam Deck or Steam Machine).
+
 Why did I do a recomp for the game when an official PC version exists?
 
 Mainly because that version is more based on the sixth gen version with it being on par with the Original Xbox version.
