@@ -1,0 +1,68 @@
+[project]
+name = "timberlinerecompiled"
+sdk_version = "0.10.0"
+game_root = "../openseason"
+
+[entrypoint]
+file_path = "../openseason/default.xex"
+out_directory_path = "generated/default"
+includes = []
+
+setjmp_address  = 0x8265dda0
+longjmp_address = 0x8265da30
+
+[entrypoint.functions]
+"0x825AF7B0" = { name = "sub_825AF7B0" }
+"0x825AF7A0" = { name = "sub_825AF7A0" }
+"0x82135AF8" = { name = "sub_82135AF8" }
+"0x82648EF8" = { name = "sub_82648EF8" }
+"0x82140BB0" = { name = "sub_82140BB0" }
+"0x825F2698" = { name = "sub_825F2698" }
+"0x8263FEF0" = { name = "sub_8263FEF0" }
+"0x826665D0" = { name = "sub_826665D0" }
+"0x82109CF0" = { name = "sub_82109CF0" }
+"0x82109D08" = { name = "sub_82109D08" }
+"0x8214E920" = { name = "sub_8214E920" }
+"0x82665288" = { name = "sub_82665288" }
+"0x82639C20" = { name = "sub_82639C20" }
+"0x82172660" = { name = "sub_82172660" }
+"0x82109CD8" = { name = "sub_82109CD8" }
+"0x8210CAF0" = { name = "sub_8210CAF0" }
+"0x821DE100" = { name = "sub_821DE100" }
+"0x821DE150" = { name = "sub_821DE150" }
+"0x8248A448" = { name = "sub_8248A448" }
+"0x821E9D58" = { name = "sub_821E9D58" }
+"0x82176658" = { name = "sub_82176658" }
+"0x8260A838" = { name = "sub_8260A838" }
+"0x8260A6C0" = { name = "sub_8260A6C0" }
+"0x826308C8" = { name = "sub_826308C8" }
+"0x82630878" = { name = "sub_82630878" }
+"0x82630888" = { name = "sub_82630888" }
+"0x826308A8" = { name = "sub_826308A8" }
+"0x826308B8" = { name = "sub_826308B8" }
+"0x82634DD0" = { name = "sub_82634DD0" }
+"0x82634DE0" = { name = "sub_82634DE0" }
+"0X8262FC80" = { name = "sub_8262FC80" }
+"0x8262FC70" = { name = "sub_8262FC70" }
+"0x82634DF0" = { name = "sub_82634DF0" }
+"0x82195758" = { name = "sub_82195758" }
+"0x82177300" = { name = "sub_82177300" }
+"0x82176638" = { name = "sub_82176638" }
+"0x82176698" = { name = "sub_82176698" }
+"0x821DDF50" = { name = "sub_821DDF50" }
+"0x821DDDD0" = { name = "sub_821DDDD0" }
+"0x82190F70" = { name = "sub_82190F70" }
+"0x825F1200" = { name = "sub_825F1200" }
+"0x825F26B0" = { name = "sub_825F26B0" }
+"0x82326E50" = { name = "sub_82326E50" }
+"0x821DDFA0" = { name = "sub_821DDFA0" }
+"0x821DDF70" = { name = "sub_821DDF70" }
+"0x821DE1C8" = { name = "sub_821DE1C8" }
+"0x821DDF90" = { name = "sub_821DDF90" }
+"0x825CD8B0" = { name = "sub_825CD8B0" }
+"0x821DE2D8" = { name = "sub_821DE2D8" }
+"0x821DE2B8" = { name = "sub_821DE2B8" }
+"0x821DE140" = { name = "sub_821DE140" }
+"0x821DE130" = { name = "sub_821DE130" }
+"0x82326B10" = { name = "sub_82326B10" }
+"0x821DE268" = { name = "sub_821DE268" }
